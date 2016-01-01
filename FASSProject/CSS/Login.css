@@ -1,0 +1,47 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+.gambar {
+    position:absolute;
+    width:100%;
+    top:0%;
+    bottom:0%;
+    height:100%;
+    z-index:-1;
+}
+.panelLogin {
+    margin: 100px auto;
+    background-color:rgba(128, 128, 128,0.5);
+    font-size:15px;
+    font-family:'Helvetica Neue';
+    /*position:absolute;
+    top:25%;
+    right:35%;*/
+    width:350px;
+    height:auto;
+    color:black;
+    border-radius:10px;
+}
+.textbox {
+    font-size:15px;
+    font-family:'Helvetica Neue';
+    
+}
+.Button {
+    font-size:15px;
+    font-family:'Helvetica Neue';
+    
+}
+.table {
+    margin:50% auto;
+    padding:20px;
+
+}
+#footer {
+    height:40px;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    background-color:rgba(128, 128, 128,0.5);
+}

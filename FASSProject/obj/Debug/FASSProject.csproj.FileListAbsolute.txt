@@ -1,0 +1,5 @@
+E:\My Document\Software engineer\Codes\ASP.Net\FASS\FASSProject\FASSProject\bin\FASSProject.dll
+E:\My Document\Software engineer\Codes\ASP.Net\FASS\FASSProject\FASSProject\bin\FASSProject.pdb
+E:\My Document\Software engineer\Codes\ASP.Net\FASS\FASSProject\FASSProject\obj\Debug\FASSProject.dll
+E:\My Document\Software engineer\Codes\ASP.Net\FASS\FASSProject\FASSProject\obj\Debug\FASSProject.pdb
+E:\My Document\Software engineer\Codes\ASP.Net\FASS\FASSProject\FASSProject\obj\Debug\FASSProject.csprojResolveAssemblyReference.cache

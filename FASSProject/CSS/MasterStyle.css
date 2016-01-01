@@ -1,0 +1,165 @@
+﻿
+body {
+    background-color:white;
+    margin:0;
+    padding:0;line-height: 1;
+}
+#header {
+    background-color:black;
+    height:70px;
+    position:absolute;
+    top:0;
+    width:1200px;
+    z-index:1;
+}
+.gambar {
+    width:100%;
+    height:100%;
+    z-index:-1;
+    margin:0;
+    padding:0;
+}
+.divGambar {
+    position:absolute; top:0;bottom:0; width:1200px;
+    margin:0;
+}
+.contenthome {
+    background:url('../Images/treetown-crowd.jpg');
+}
+#container
+{
+    width:1200px;
+    margin:-10px auto;
+}
+nav a {
+    text-decoration:none;
+    /*color:white;*/
+}
+nav ul {
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:15px;
+    position: absolute;
+    bottom:0;
+    list-style:none;
+    margin:0;
+    display:inline;
+    padding:0;
+    color:white;
+}
+    nav ul li {
+        float:left;
+        position:relative;
+    cursor:pointer;
+    padding:15px;
+        
+    }
+    nav ul li a{
+        color:white;
+        
+    }
+    nav ul  li:hover{
+        color:black;
+        padding:15px;
+        background-color:white;
+    }
+    nav ul  li:hover a{
+        color:black;
+    }
+    nav ul  .selected{
+        border-left:5px red solid;
+        color:black;
+        padding:15px;
+        background-color:white;
+    }
+        nav ul .selected a {
+            color:black;
+        }
+    nav ul li ul {
+        font-family:Roboto;
+        font-weight:bold;
+        font-size:15px;
+        padding:0;
+        position:absolute;
+        top:45px;
+        left:0px;
+        width: 160px;
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+        background-color:black;
+        -webkit-transiton: opacity 0.2s;
+        -moz-transition: opacity 0.2s;
+        -ms-transition: opacity 0.2s;
+        -o-transition: opacity 0.2s;
+        -transition: opacity 0.2s;
+    }
+    nav ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+    nav ul li ul li:hover{ background: black;
+                            color:white;
+    }
+    nav ul li ul li:hover a{ 
+                            color:white;
+    }
+    nav ul li ul .selected{ 
+        background: black;
+        color:white;
+        border-left:5px red solid;
+    }
+    nav ul li ul .selected a{ 
+        color:white;
+    }
+    nav ul li ul li { 
+  background: white; 
+  display: block; 
+  color: black;
+  float:none;
+}
+
+    
+.TabStyle .ajax__tab_header /* Efek untuk tab header */
+{
+    /*font-family: Helvetica, Futura, Arial, sans-serif;*/
+    font-size: 15px;
+    font-weight:bold;
+    font-family:Roboto;
+}
+.TabStyle .ajax__tab_header .ajax__tab_outer
+{
+    padding-left: 8px;
+    padding-right: 30px;
+    border-right: solid 2px;
+    border-color: white;
+}
+.TabStyle .ajax__tab_header .ajax__tab_inner
+{
+    color: white;
+    padding-top:5px;
+}
+.TabStyle .ajax__tab_hover .ajax__tab_outer /* Efek untuk tab header ketika di hover */
+{
+    background-color:white;
+    cursor:pointer;
+}
+.TabStyle .ajax__tab_hover .ajax__tab_inner
+{
+    color: #8f8f8f;
+    cursor:pointer;
+}
+.TabStyle .ajax__tab_active .ajax__tab_outer /* Efek untuk tab header yang sedang dipilih */
+{
+    background-color: white;
+}
+.TabStyle .ajax__tab_active .ajax__tab_inner
+{
+    color: #000000;
+}
+.TabStyle .ajax__tab_body /* Efek untuk body dari tab yang dipilih */
+{
+    /*font-family: Helvetica, Futura, Arial, Verdana, Tahoma;*/
+    font-size: 10pt;
+}

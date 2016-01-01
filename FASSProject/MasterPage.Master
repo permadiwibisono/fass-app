@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="FASSProject.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="CSS/MasterStyle.css" type="text/css" rel="stylesheet"/>
+    <link href="CSS/FormStyle.css" type="text/css" rel="stylesheet"/>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">   
+    </asp:ContentPlaceHolder>     
+    <script type='text/javascript'>
+        function showPop(str) {
+            alert(str);
+        }
+        </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="container">
+            <div class="divGambar">
+<%--                <img id="img1" src="../Images/treetown-crowd.jpg" class="gambar" />--%>
+
+            </div>
+            <div id="header">
+                <div id="LogoutDiv">
+                        <asp:LinkButton ID="LinkButtonLogout" runat="server" Text="Logout" OnClick="LinkButtonLogout_Click" CssClass="logout"></asp:LinkButton>
+                </div>
+                <asp:ContentPlaceHolder ID="NavBar" runat="server">
+        
+                </asp:ContentPlaceHolder>
+
+            </div>
+            <div id="content">
+                <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+        
+                </asp:ContentPlaceHolder>
+
+            </div>
+            <div id="footer" style="height:50px;">
+
+            </div>
+
+        </div>
+    </div>
+    </form>
+</body>
+</html>
